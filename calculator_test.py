@@ -11,8 +11,8 @@ class Test(unittest.TestCase):
 
 
     def test_0_subtarct(self):
-        result = self.calculator.subtarct(4,3)
-        self.assertEquals(result,1)
+        result = self.calculator.subtract(4,2)
+        self.assertEquals(result,2)
 
     def test_0_multiply(self):
         result = self.calculator.multiply(4,2)
